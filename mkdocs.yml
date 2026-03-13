@@ -1,0 +1,103 @@
+site_name: OpenSling Wiki
+site_description: Open documentation for building machines that clean water
+site_author: OpenSling contributors
+site_url: https://pierce403.github.io/opensling
+
+repo_name: pierce403/opensling
+repo_url: https://github.com/pierce403/opensling
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  logo: img/logo.svg
+  favicon: img/favicon.svg
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - css/custom-styles.css
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Mission and Scope: getting-started/mission-and-scope.md
+    - Design Principles: getting-started/design-principles.md
+    - Contributing: getting-started/contributing.md
+  - Water Treatment Foundations:
+    - Contaminants and Constraints: foundations/contaminants.md
+    - Treatment Train: foundations/treatment-train.md
+    - Energy and Maintenance Tradeoffs: foundations/energy-maintenance.md
+  - System Architecture:
+    - Modular Architecture: systems/modular-architecture.md
+    - Sensors and Controls: systems/sensors-and-controls.md
+    - Power and Enclosure: systems/power-and-enclosure.md
+  - Build Guides:
+    - Bench Prototype: build-guides/bench-prototype.md
+    - Field Pilot Skid: build-guides/field-pilot-skid.md
+    - Test Rig: build-guides/testing-rig.md
+  - Operations:
+    - Sampling and Validation: operations/sampling-and-validation.md
+    - Maintenance and Failure Modes: operations/maintenance.md
+    - Safety: operations/safety.md
+  - Research:
+    - Open Questions: research/open-questions.md
+    - Component Sourcing: research/component-sourcing.md
+  - About: about.md
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pierce403/opensling
+
+copyright: Copyright &copy; 2026 OpenSling contributors
