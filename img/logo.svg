@@ -1,0 +1,13 @@
+<svg width="332" height="72" viewBox="0 0 332 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="openslingGradient" x1="8" y1="8" x2="68" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B6A6A"/>
+      <stop offset="1" stop-color="#1DB8C5"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="64" height="64" rx="20" fill="url(#openslingGradient)"/>
+  <path d="M36 16C36 16 24 30.2 24 39.5C24 46.9 29.8 53 37 53C44.2 53 50 46.9 50 39.5C50 30.2 36 16 36 16Z" fill="white"/>
+  <path d="M16 50.5C21 47.5 27.2 46 34 46C40.8 46 47 47.5 52 50.5" stroke="#08363B" stroke-width="4.5" stroke-linecap="round"/>
+  <text x="84" y="36" fill="currentColor" font-family="IBM Plex Sans, Arial, sans-serif" font-size="24" font-weight="700">OpenSling</text>
+  <text x="84" y="56" fill="currentColor" font-family="IBM Plex Sans, Arial, sans-serif" font-size="12" opacity="0.7">water systems wiki</text>
+</svg>
