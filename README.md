@@ -39,6 +39,10 @@ The workflow builds the site on every push to `main` and publishes the static ou
 
 `https://pierce403.github.io/opensling`
 
+## Licensing Model
+
+The current repository root license is Apache-2.0. Project intent is to keep documentation and educational media open under CC BY 4.0 while keeping code, scripts, and fabrication design sources under Apache-2.0. See `LICENSING.md`.
+
 ## License
 
 This repository currently ships with the Apache 2.0 license inherited from the template scaffold.
