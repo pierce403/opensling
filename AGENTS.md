@@ -39,6 +39,9 @@ source activate.sh
 # Strict site build
 ./build.sh
 
+# Regenerate the Open Graph / Twitter preview image
+ffmpeg -y -loglevel error -i docs/img/social-preview-source.svg -frames:v 1 docs/img/social-preview.png
+
 # Regenerate current fabrication meshes
 source venv/bin/activate
 python fabrication/generate_assets.py
@@ -57,6 +60,9 @@ curl -I https://opensling.org
 - `fabrication/openscad/`: editable custom-part CAD sources
 - `fabrication/stl/`: generated STL exports for currently defined non-pressure parts
 - `fabrication/generate_assets.py`: deterministic STL generator used in this repo
+- `overrides/`: MkDocs Material theme overrides, including social-preview metadata injection
+- `docs/img/social-preview-source.svg`: editable Open Graph/Twitter preview card source
+- `docs/img/social-preview.png`: rendered social preview image used by shared links
 - `.github/workflows/deploy.yml`: official GitHub Pages workflow deployment
 - `docs/CNAME`: custom-domain binding for `opensling.org`
 - `TODO.md`: active progress tracker and next-work queue
@@ -83,6 +89,7 @@ curl -I https://opensling.org
 - If a public-health number is time-sensitive, include the exact year of the underlying data.
 - If a page tells people what to buy, date-stamp the price snapshot and make the missing pieces impossible to miss.
 - If license scope changes, update the site footer, published docs, and repo-side license files together.
+- If the social preview changes, update both the OG/Twitter template override and the rendered preview image.
 - If malaria is discussed alongside water-borne disease, clarify that malaria is mosquito-borne but linked to water, drainage, and infrastructure conditions.
 - Do not claim production readiness unless dimensions, materials, safety limits, and commissioning behavior are actually validated.
 

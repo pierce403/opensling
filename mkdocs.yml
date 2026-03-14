@@ -9,6 +9,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -111,6 +112,8 @@ plugins:
   - search
 
 extra:
+  social_preview_title: OpenSling
+  social_preview_description: Open-source designs, BOMs, fabrication files, and test notes for building machines that clean water.
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/pierce403/opensling

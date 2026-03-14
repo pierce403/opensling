@@ -1,0 +1,89 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="80" y1="40" x2="1120" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08363B"/>
+      <stop offset="0.52" stop-color="#0B6A6A"/>
+      <stop offset="1" stop-color="#1DB8C5"/>
+    </linearGradient>
+    <radialGradient id="glowTop" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 132) rotate(128.659) scale(415.249 371.64)">
+      <stop stop-color="#72F2FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#72F2FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottom" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 532) rotate(169.263) scale(379.001 188.597)">
+      <stop stop-color="#B5FFF4" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#B5FFF4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panelStroke" x1="104" y1="96" x2="731" y2="552" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#76F0FF" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#76F0FF" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="chipGradient" x1="0" y1="0" x2="276" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F4F54"/>
+      <stop offset="1" stop-color="#126A72"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#glowTop)"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#glowBottom)"/>
+
+  <g opacity="0.18">
+    <path d="M0 168H1200" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M0 302H1200" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M0 436H1200" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M176 0V630" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M352 0V630" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M528 0V630" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M704 0V630" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M880 0V630" stroke="#A1FBFF" stroke-width="1"/>
+    <path d="M1056 0V630" stroke="#A1FBFF" stroke-width="1"/>
+  </g>
+
+  <rect x="74" y="78" width="650" height="474" rx="34" fill="#082A2F" fill-opacity="0.52" stroke="url(#panelStroke)" stroke-width="2"/>
+  <rect x="98" y="102" width="216" height="46" rx="23" fill="#E8FFFF" fill-opacity="0.1" stroke="#B7FDFF" stroke-opacity="0.25"/>
+  <text x="126" y="132" fill="#DDFEFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="1.8">OPEN-SOURCE WATER SYSTEMS WIKI</text>
+
+  <g transform="translate(98 178)">
+    <rect x="0" y="0" width="92" height="92" rx="28" fill="#0E8B98"/>
+    <rect x="2" y="2" width="88" height="88" rx="26" fill="url(#bgGradient)"/>
+    <path d="M46 18C46 18 28.75 38.42 28.75 51.78C28.75 62.42 37.09 71.2 47.45 71.2C57.8 71.2 66.15 62.42 66.15 51.78C66.15 38.42 46 18 46 18Z" fill="white"/>
+    <path d="M17.25 66.75C24.44 62.44 33.35 60.28 43.13 60.28C52.9 60.28 61.81 62.44 69 66.75" stroke="#062C31" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <text x="214" y="243" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="72" font-weight="700">OpenSling</text>
+  <text x="98" y="324" fill="#D7FDFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="38" font-weight="700">Build machines to clean water.</text>
+  <text x="98" y="388" fill="#D1F7FA" font-family="DejaVu Sans, Arial, sans-serif" font-size="28">
+    <tspan x="98" dy="0">Open documentation, specs, BOMs, fabrication files,</tspan>
+    <tspan x="98" dy="40">and test notes for practical water-cleaning hardware.</tspan>
+  </text>
+
+  <g transform="translate(98 466)">
+    <rect x="0" y="0" width="214" height="54" rx="27" fill="url(#chipGradient)" stroke="#9CFBFF" stroke-opacity="0.24"/>
+    <text x="24" y="35" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Build guides</text>
+
+    <rect x="232" y="0" width="158" height="54" rx="27" fill="url(#chipGradient)" stroke="#9CFBFF" stroke-opacity="0.24"/>
+    <text x="256" y="35" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">BOMs</text>
+
+    <rect x="408" y="0" width="228" height="54" rx="27" fill="url(#chipGradient)" stroke="#9CFBFF" stroke-opacity="0.24"/>
+    <text x="432" y="35" fill="white" font-family="DejaVu Sans, Arial, sans-serif" font-size="23" font-weight="700">Fabrication files</text>
+  </g>
+
+  <g transform="translate(760 70)">
+    <circle cx="260" cy="246" r="186" fill="#06272C" fill-opacity="0.38" stroke="#97FAFF" stroke-opacity="0.28" stroke-width="2"/>
+    <circle cx="260" cy="246" r="148" fill="#0A4B52" fill-opacity="0.55" stroke="#B9FEFF" stroke-opacity="0.3" stroke-width="2"/>
+    <path d="M150 334C186 314 231 304 280 304C329 304 374 314 410 334" stroke="#C6FFFF" stroke-opacity="0.52" stroke-width="18" stroke-linecap="round"/>
+    <path d="M278 98C278 98 180 214 180 290C180 350 227 399 286 399C345 399 393 350 393 290C393 214 278 98 278 98Z" fill="white"/>
+    <path d="M218 214C235 183 265 149 278 135C292 151 324 188 342 224C313 236 283 242 252 242C240 242 229 241 218 239V214Z" fill="#D7FBFF" fill-opacity="0.68"/>
+    <circle cx="260" cy="246" r="226" stroke="#C9FFFF" stroke-opacity="0.1" stroke-width="2"/>
+    <path d="M16 26H156" stroke="#BEFFFF" stroke-opacity="0.32" stroke-width="2"/>
+    <path d="M16 468H178" stroke="#BEFFFF" stroke-opacity="0.24" stroke-width="2"/>
+    <path d="M345 24H472" stroke="#BEFFFF" stroke-opacity="0.3" stroke-width="2"/>
+    <path d="M377 468H510" stroke="#BEFFFF" stroke-opacity="0.24" stroke-width="2"/>
+    <circle cx="16" cy="26" r="7" fill="#7EF4FF"/>
+    <circle cx="472" cy="24" r="7" fill="#7EF4FF"/>
+    <circle cx="16" cy="468" r="7" fill="#7EF4FF"/>
+    <circle cx="510" cy="468" r="7" fill="#7EF4FF"/>
+  </g>
+
+  <text x="910" y="574" fill="#DBFFFF" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700">opensling.org</text>
+</svg>
