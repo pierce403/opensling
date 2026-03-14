@@ -12,13 +12,13 @@
         <meta name="author" content="OpenSling contributors">
       
       
-        <link rel="canonical" href="https://pierce403.github.io/opensling/foundations/energy-maintenance/">
+        <link rel="canonical" href="https://pierce403.github.io/opensling/slingshot-reference/known-specs/">
       
       
-        <link rel="prev" href="../treatment-train/">
+        <link rel="prev" href="../../getting-started/contributing/">
       
       
-        <link rel="next" href="../../systems/modular-architecture/">
+        <link rel="next" href="../assembly-overview/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Energy and Maintenance Tradeoffs - OpenSling Wiki</title>
+        <title>Public Specs and Shared-Thread Notes - OpenSling Wiki</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#energy-and-maintenance-tradeoffs" class="md-skip">
+        <a href="#public-specs-and-shared-thread-notes" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Energy and Maintenance Tradeoffs
+              Public Specs and Shared-Thread Notes
             
           </span>
         </div>
@@ -433,8 +433,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -445,13 +447,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -472,7 +472,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -487,10 +487,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../slingshot-reference/known-specs/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Specs and Shared-Thread Notes
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -506,6 +533,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-publicly-documented" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Is Publicly Documented
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-the-shared-thread-added" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What The Shared Thread Added
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where-the-shared-thread-was-inference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where The Shared Thread Was Inference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opensling-position" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenSling Position
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source Notes
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -518,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/assembly-overview/" class="md-nav__link">
+      <a href="../assembly-overview/" class="md-nav__link">
         
   
   
@@ -597,7 +699,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/evaporator-condenser-core/" class="md-nav__link">
+      <a href="../components/evaporator-condenser-core/" class="md-nav__link">
         
   
   
@@ -625,7 +727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/vapor-compression-stage/" class="md-nav__link">
+      <a href="../components/vapor-compression-stage/" class="md-nav__link">
         
   
   
@@ -653,7 +755,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/demister-volatile-control/" class="md-nav__link">
+      <a href="../components/demister-volatile-control/" class="md-nav__link">
         
   
   
@@ -681,7 +783,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/feed-preheat-blowdown/" class="md-nav__link">
+      <a href="../components/feed-preheat-blowdown/" class="md-nav__link">
         
   
   
@@ -709,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/controls-power-frame/" class="md-nav__link">
+      <a href="../components/controls-power-frame/" class="md-nav__link">
         
   
   
@@ -749,8 +851,6 @@
       
   
   
-    
-  
   
   
     
@@ -763,11 +863,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -788,7 +890,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -806,7 +908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contaminants/" class="md-nav__link">
+      <a href="../../foundations/contaminants/" class="md-nav__link">
         
   
   
@@ -834,7 +936,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../treatment-train/" class="md-nav__link">
+      <a href="../../foundations/treatment-train/" class="md-nav__link">
         
   
   
@@ -859,37 +961,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Energy and Maintenance Tradeoffs
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../foundations/energy-maintenance/" class="md-nav__link">
         
   
   
@@ -905,70 +980,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tradeoff-table" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tradeoff Table
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#maintenance-reality" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Maintenance Reality
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-biases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Useful Biases
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#power-budget-categories" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Power Budget Categories
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1587,10 +1598,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tradeoff-table" class="md-nav__link">
+  <a href="#what-is-publicly-documented" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tradeoff Table
+        What Is Publicly Documented
       
     </span>
   </a>
@@ -1598,10 +1609,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#maintenance-reality" class="md-nav__link">
+  <a href="#what-the-shared-thread-added" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Maintenance Reality
+        What The Shared Thread Added
       
     </span>
   </a>
@@ -1609,10 +1620,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#useful-biases" class="md-nav__link">
+  <a href="#where-the-shared-thread-was-inference" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Useful Biases
+        Where The Shared Thread Was Inference
       
     </span>
   </a>
@@ -1620,10 +1631,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#power-budget-categories" class="md-nav__link">
+  <a href="#opensling-position" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Power Budget Categories
+        OpenSling Position
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source Notes
       
     </span>
   </a>
@@ -1647,7 +1669,7 @@
 
 
   
-    <a href="https://github.com/pierce403/opensling/edit/main/docs/foundations/energy-maintenance.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/pierce403/opensling/edit/main/docs/slingshot-reference/known-specs.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1655,85 +1677,147 @@
   
 
 
-<h1 id="energy-and-maintenance-tradeoffs">Energy and Maintenance Tradeoffs<a class="headerlink" href="#energy-and-maintenance-tradeoffs" title="Permanent link">&para;</a></h1>
-<p>Water treatment hardware is usually constrained by maintenance long before it is constrained by theory. Energy and service burden should be considered together.</p>
-<h2 id="tradeoff-table">Tradeoff Table<a class="headerlink" href="#tradeoff-table" title="Permanent link">&para;</a></h2>
+<h1 id="public-specs-and-shared-thread-notes">Public Specs And Shared-Thread Notes<a class="headerlink" href="#public-specs-and-shared-thread-notes" title="Permanent link">&para;</a></h1>
+<p>This page separates three different things:</p>
+<ol>
+<li>public claims made by DEKA, Coca-Cola, Dartmouth, and WHO-linked reporting</li>
+<li>working notes extracted from the shared ChatGPT thread you linked</li>
+<li>OpenSling reconstruction choices made because the exact production design is not fully public</li>
+</ol>
+<h2 id="what-is-publicly-documented">What Is Publicly Documented<a class="headerlink" href="#what-is-publicly-documented" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Choice</th>
-<th>Strength</th>
-<th>Cost</th>
+<th>Item</th>
+<th>Shared-thread note</th>
+<th>Public evidence</th>
+<th>Assessment</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Larger pre-separation volume</td>
-<td>reduces filter fouling</td>
-<td>adds bulk and slower startup</td>
+<td>Treatment method</td>
+<td>Vapor-compression distillation / mechanical vapor recompression</td>
+<td>DEKA says Slingshot uses <strong>vapor compression distillation</strong>.<sup id="fnref:deka"><a class="footnote-ref" href="#fn:deka">1</a></sup></td>
+<td>Verified</td>
 </tr>
 <tr>
-<td>Higher-pressure fine filtration</td>
-<td>better particulate control</td>
-<td>more pump power and more complex leak management</td>
+<td>Water sources</td>
+<td>“Any dirty water,” including sewage</td>
+<td>Coca-Cola’s 2012 release says the system can boil and evaporate river water, ocean water, and raw sewage, then condense pure water.<sup id="fnref:coke-2012"><a class="footnote-ref" href="#fn:coke-2012">2</a></sup></td>
+<td>Verified public claim</td>
 </tr>
 <tr>
-<td>UV disinfection</td>
-<td>no chemical residual</td>
-<td>needs clear water, power, and lamp maintenance</td>
+<td>Output</td>
+<td>Around <strong>1000 L/day</strong> or <strong>10 gal/hour</strong></td>
+<td>Coca-Cola’s 2012 release and Dartmouth’s 2014 article both repeat about <strong>10 gallons of clean water an hour</strong>; Coca-Cola also states <strong>up to 300,000 liters per year</strong>.<sup id="fnref2:coke-2012"><a class="footnote-ref" href="#fn:coke-2012">2</a></sup><sup id="fnref:dartmouth"><a class="footnote-ref" href="#fn:dartmouth">3</a></sup></td>
+<td>Verified public claim</td>
 </tr>
 <tr>
-<td>Carbon polishing</td>
-<td>improves taste and odor</td>
-<td>consumable replacement and uncertain performance on all chemistries</td>
+<td>Power draw</td>
+<td>Roughly <strong>500 W to under 1 kW</strong></td>
+<td>Dartmouth and Coca-Cola both say <strong>less than 1 kW</strong>; the shared thread also mentioned a secondary-report figure of <strong>500 W</strong>.<sup id="fnref3:coke-2012"><a class="footnote-ref" href="#fn:coke-2012">2</a></sup><sup id="fnref2:dartmouth"><a class="footnote-ref" href="#fn:dartmouth">3</a></sup><sup id="fnref3:share"><a class="footnote-ref" href="#fn:share">4</a></sup></td>
+<td><code>&lt;1 kW</code> is public; <code>500 W</code> should be treated as secondary-report territory</td>
 </tr>
 <tr>
-<td>Solar-backed system</td>
-<td>off-grid operation</td>
-<td>variable duty cycle and battery management overhead</td>
+<td>Physical scale</td>
+<td>About the size of a mini-bar fridge</td>
+<td>Dartmouth describes it as equal to a hotel mini-bar fridge.<sup id="fnref3:dartmouth"><a class="footnote-ref" href="#fn:dartmouth">3</a></sup></td>
+<td>Verified public claim</td>
+</tr>
+<tr>
+<td>Maintenance posture</td>
+<td>Few moving parts, low ongoing maintenance</td>
+<td>Dartmouth and DEKA describe low moving-part count and low maintenance needs.<sup id="fnref4:dartmouth"><a class="footnote-ref" href="#fn:dartmouth">3</a></sup><sup id="fnref2:deka"><a class="footnote-ref" href="#fn:deka">1</a></sup></td>
+<td>Verified public claim</td>
+</tr>
+<tr>
+<td>Core evaporator geometry</td>
+<td>Copper tubes with plastic dowels making a thin film</td>
+<td>DEKA’s public Slingshot page states that the evaporator uses copper tubes with plastic dowels to form a thin film.<sup id="fnref3:deka"><a class="footnote-ref" href="#fn:deka">1</a></sup></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>Pressure lift</td>
+<td>Compressor raises steam from <strong>7 psi to 9 psi</strong></td>
+<td>DEKA states this directly on the public Slingshot page.<sup id="fnref4:deka"><a class="footnote-ref" href="#fn:deka">1</a></sup></td>
+<td>Verified</td>
+</tr>
+<tr>
+<td>Power-source flexibility</td>
+<td>Grid, batteries, solar, or Stirling generation</td>
+<td>Coca-Cola’s 2012 release explicitly mentions grid, batteries, solar cells, and DEKA’s Stirling generator powered by biogas.<sup id="fnref4:coke-2012"><a class="footnote-ref" href="#fn:coke-2012">2</a></sup></td>
+<td>Verified public claim</td>
 </tr>
 </tbody>
 </table>
-<h2 id="maintenance-reality">Maintenance Reality<a class="headerlink" href="#maintenance-reality" title="Permanent link">&para;</a></h2>
-<p>When comparing designs, ask:</p>
+<h2 id="what-the-shared-thread-added">What The Shared Thread Added<a class="headerlink" href="#what-the-shared-thread-added" title="Permanent link">&para;</a></h2>
+<p>The shared thread is useful because it pushed the public record into a more build-oriented interpretation:</p>
 <ul>
-<li>how often does an operator touch the machine?</li>
-<li>what parts clog first?</li>
-<li>can the service task be done without contaminating the clean side?</li>
-<li>how many tools are required?</li>
-<li>what happens if service is skipped for a week?</li>
+<li>It identified the Slingshot concept as a <strong>water-vapor heat pump</strong>, not simple one-pass boiling.</li>
+<li>It treated the pressure lift as a <strong>small differential</strong> that makes latent-heat recycling plausible.</li>
+<li>It emphasized a <strong>counterflow heat exchanger</strong>, <strong>mist elimination before compression</strong>, and <strong>blowdown handling</strong> as essential pieces of the open design.<sup id="fnref:share"><a class="footnote-ref" href="#fn:share">4</a></sup></li>
+<li>It argued that an exact under-<code>$2000</code>, full-scale clone is not credible, but a lower-throughput open reference machine is more realistic.<sup id="fnref2:share"><a class="footnote-ref" href="#fn:share">4</a></sup></li>
 </ul>
-<h2 id="useful-biases">Useful Biases<a class="headerlink" href="#useful-biases" title="Permanent link">&para;</a></h2>
-<ul>
-<li>spend volume and plumbing on upstream solids management</li>
-<li>keep consumables standardized</li>
-<li>make the dirty side physically obvious</li>
-<li>expose maintenance intervals as checklists, not tribal knowledge</li>
-</ul>
-<h2 id="power-budget-categories">Power Budget Categories<a class="headerlink" href="#power-budget-categories" title="Permanent link">&para;</a></h2>
+<h2 id="where-the-shared-thread-was-inference">Where The Shared Thread Was Inference<a class="headerlink" href="#where-the-shared-thread-was-inference" title="Permanent link">&para;</a></h2>
+<p>Some details in the thread are best treated as engineering hypotheses, not verified Slingshot facts:</p>
 <table>
 <thead>
 <tr>
-<th>Category</th>
-<th>Example loads</th>
+<th>Thread claim</th>
+<th>Why it matters</th>
+<th>Current status</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Always on</td>
-<td>controller, telemetry, low-power sensors</td>
+<td>Regenerative blower as the default compressor</td>
+<td>Drives motor selection, noise, and moisture tolerance</td>
+<td>Reasonable inference, but not fully confirmed as the only public production implementation</td>
 </tr>
 <tr>
-<td>Duty cycled</td>
-<td>pumps, valves, UV chamber</td>
+<td>1.5-2 psi preferred differential across the blower</td>
+<td>Critical for compressor sizing</td>
+<td>Supported by patent-family reasoning in the thread, but not stated on DEKA’s public marketing page</td>
 </tr>
 <tr>
-<td>Rare events</td>
-<td>flush solenoids, alarms, work lights</td>
+<td>Three parallel 100 ft stainless coils in a pressurized shell</td>
+<td>Strongly shapes the open build</td>
+<td>This is an OpenSling design proposal, not a public Slingshot bill of materials</td>
+</tr>
+<tr>
+<td>600-800 L/day baseline, 1000 L/day stretch for a practical open build</td>
+<td>Useful for scoping fabrication and testing</td>
+<td>OpenSling design target, not a historical Slingshot spec</td>
 </tr>
 </tbody>
 </table>
-<p>Documenting the power budget alongside the maintenance budget makes it easier to design systems that actually stay deployed.</p>
+<h2 id="opensling-position">OpenSling Position<a class="headerlink" href="#opensling-position" title="Permanent link">&para;</a></h2>
+<p>OpenSling is not pretending to possess the hidden factory drawings for Slingshot. The approach here is:</p>
+<ol>
+<li>take the publicly documented mechanism seriously</li>
+<li>preserve only the parts that are actually evidenced</li>
+<li>make reconstruction choices explicit</li>
+<li>publish enough design detail that another builder can improve the system</li>
+</ol>
+<h2 id="source-notes">Source Notes<a class="headerlink" href="#source-notes" title="Permanent link">&para;</a></h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:deka">
+<p><a href="https://dekaresearch.com/slingshot/">DEKA Slingshot page</a>.&#160;<a class="footnote-backref" href="#fnref:deka" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:deka" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:deka" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:deka" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:coke-2012">
+<p><a href="https://investors.coca-colacompany.com/news-events/press-releases/detail/333/coca-cola-announces-long-term-partnership-with-deka-rd-to-help-bring-clean-water-to-communities-in-need">Coca-Cola Announces Long-Term Partnership with DEKA R&amp;D to Help Bring Clean Water to Communities in Need, September 25, 2012</a>.&#160;<a class="footnote-backref" href="#fnref:coke-2012" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:coke-2012" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:coke-2012" title="Jump back to footnote 2 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:coke-2012" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:dartmouth">
+<p><a href="https://home.dartmouth.edu/news/2014/08/one-mans-attempt-solve-worlds-water-problem">One Man’s Attempt to Solve the World’s Water Problem, Dartmouth, August 27, 2014</a>.&#160;<a class="footnote-backref" href="#fnref:dartmouth" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:dartmouth" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:dartmouth" title="Jump back to footnote 3 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:dartmouth" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:share">
+<p><a href="https://chatgpt.com/share/69b4a167-cdac-8003-a53a-c5b64e4274a3">Shared ChatGPT conversation: “Slingshot Water Distillation Design”</a>.&#160;<a class="footnote-backref" href="#fnref:share" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:share" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:share" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 

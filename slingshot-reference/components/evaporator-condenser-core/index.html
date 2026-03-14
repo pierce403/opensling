@@ -12,31 +12,31 @@
         <meta name="author" content="OpenSling contributors">
       
       
-        <link rel="canonical" href="https://pierce403.github.io/opensling/foundations/energy-maintenance/">
+        <link rel="canonical" href="https://pierce403.github.io/opensling/slingshot-reference/components/evaporator-condenser-core/">
       
       
-        <link rel="prev" href="../treatment-train/">
+        <link rel="prev" href="../../assembly-overview/">
       
       
-        <link rel="next" href="../../systems/modular-architecture/">
+        <link rel="next" href="../vapor-compression-stage/">
       
       
         
       
       
-      <link rel="icon" href="../../img/favicon.svg">
+      <link rel="icon" href="../../../img/favicon.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
       
-        <title>Energy and Maintenance Tradeoffs - OpenSling Wiki</title>
+        <title>Evaporator and Condenser Core - OpenSling Wiki</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -55,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="../../css/custom-styles.css">
+      <link rel="stylesheet" href="../../../css/custom-styles.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#energy-and-maintenance-tradeoffs" class="md-skip">
+        <a href="#evaporator-and-condenser-core" class="md-skip">
           Skip to content
         </a>
       
@@ -98,9 +98,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="OpenSling Wiki" class="md-header__button md-logo" aria-label="OpenSling Wiki" data-md-component="logo">
+    <a href="../../.." title="OpenSling Wiki" class="md-header__button md-logo" aria-label="OpenSling Wiki" data-md-component="logo">
       
-  <img src="../../img/logo.svg" alt="logo">
+  <img src="../../../img/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Energy and Maintenance Tradeoffs
+              Evaporator and Condenser Core
             
           </span>
         </div>
@@ -235,9 +235,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="OpenSling Wiki" class="md-nav__button md-logo" aria-label="OpenSling Wiki" data-md-component="logo">
+    <a href="../../.." title="OpenSling Wiki" class="md-nav__button md-logo" aria-label="OpenSling Wiki" data-md-component="logo">
       
-  <img src="../../img/logo.svg" alt="logo">
+  <img src="../../../img/logo.svg" alt="logo">
 
     </a>
     OpenSling Wiki
@@ -264,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -345,7 +345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/mission-and-scope/" class="md-nav__link">
+      <a href="../../../getting-started/mission-and-scope/" class="md-nav__link">
         
   
   
@@ -373,7 +373,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/design-principles/" class="md-nav__link">
+      <a href="../../../getting-started/design-principles/" class="md-nav__link">
         
   
   
@@ -401,7 +401,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/contributing/" class="md-nav__link">
+      <a href="../../../getting-started/contributing/" class="md-nav__link">
         
   
   
@@ -433,8 +433,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -445,13 +447,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -472,7 +472,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -490,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/known-specs/" class="md-nav__link">
+      <a href="../../known-specs/" class="md-nav__link">
         
   
   
@@ -518,7 +518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/assembly-overview/" class="md-nav__link">
+      <a href="../../assembly-overview/" class="md-nav__link">
         
   
   
@@ -543,6 +543,8 @@
                 
   
   
+    
+  
   
   
     
@@ -552,13 +554,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
@@ -579,7 +579,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -594,10 +594,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/evaporator-condenser-core/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaporator and Condenser Core
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -613,6 +640,92 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#public-slingshot-basis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Slingshot Basis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#opensling-reference-choice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OpenSling Reference Choice
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Design Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#things-to-measure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Things To Measure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failure-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Failure Modes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Questions
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -625,7 +738,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/vapor-compression-stage/" class="md-nav__link">
+      <a href="../vapor-compression-stage/" class="md-nav__link">
         
   
   
@@ -653,7 +766,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/demister-volatile-control/" class="md-nav__link">
+      <a href="../demister-volatile-control/" class="md-nav__link">
         
   
   
@@ -681,7 +794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/feed-preheat-blowdown/" class="md-nav__link">
+      <a href="../feed-preheat-blowdown/" class="md-nav__link">
         
   
   
@@ -709,7 +822,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../slingshot-reference/components/controls-power-frame/" class="md-nav__link">
+      <a href="../controls-power-frame/" class="md-nav__link">
         
   
   
@@ -749,8 +862,6 @@
       
   
   
-    
-  
   
   
     
@@ -763,11 +874,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
@@ -788,7 +901,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -806,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../contaminants/" class="md-nav__link">
+      <a href="../../../foundations/contaminants/" class="md-nav__link">
         
   
   
@@ -834,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../treatment-train/" class="md-nav__link">
+      <a href="../../../foundations/treatment-train/" class="md-nav__link">
         
   
   
@@ -859,37 +972,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Energy and Maintenance Tradeoffs
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../foundations/energy-maintenance/" class="md-nav__link">
         
   
   
@@ -905,70 +991,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#tradeoff-table" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tradeoff Table
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#maintenance-reality" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Maintenance Reality
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#useful-biases" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Useful Biases
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#power-budget-categories" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Power Budget Categories
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1042,7 +1064,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../systems/modular-architecture/" class="md-nav__link">
+      <a href="../../../systems/modular-architecture/" class="md-nav__link">
         
   
   
@@ -1070,7 +1092,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../systems/sensors-and-controls/" class="md-nav__link">
+      <a href="../../../systems/sensors-and-controls/" class="md-nav__link">
         
   
   
@@ -1098,7 +1120,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../systems/power-and-enclosure/" class="md-nav__link">
+      <a href="../../../systems/power-and-enclosure/" class="md-nav__link">
         
   
   
@@ -1187,7 +1209,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../build-guides/bench-prototype/" class="md-nav__link">
+      <a href="../../../build-guides/bench-prototype/" class="md-nav__link">
         
   
   
@@ -1215,7 +1237,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../build-guides/field-pilot-skid/" class="md-nav__link">
+      <a href="../../../build-guides/field-pilot-skid/" class="md-nav__link">
         
   
   
@@ -1243,7 +1265,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../build-guides/testing-rig/" class="md-nav__link">
+      <a href="../../../build-guides/testing-rig/" class="md-nav__link">
         
   
   
@@ -1332,7 +1354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../operations/sampling-and-validation/" class="md-nav__link">
+      <a href="../../../operations/sampling-and-validation/" class="md-nav__link">
         
   
   
@@ -1360,7 +1382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../operations/maintenance/" class="md-nav__link">
+      <a href="../../../operations/maintenance/" class="md-nav__link">
         
   
   
@@ -1388,7 +1410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../operations/safety/" class="md-nav__link">
+      <a href="../../../operations/safety/" class="md-nav__link">
         
   
   
@@ -1477,7 +1499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../research/open-questions/" class="md-nav__link">
+      <a href="../../../research/open-questions/" class="md-nav__link">
         
   
   
@@ -1505,7 +1527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../research/component-sourcing/" class="md-nav__link">
+      <a href="../../../research/component-sourcing/" class="md-nav__link">
         
   
   
@@ -1540,7 +1562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../about/" class="md-nav__link">
+      <a href="../../../about/" class="md-nav__link">
         
   
   
@@ -1587,10 +1609,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#tradeoff-table" class="md-nav__link">
+  <a href="#public-slingshot-basis" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tradeoff Table
+        Public Slingshot Basis
       
     </span>
   </a>
@@ -1598,10 +1620,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#maintenance-reality" class="md-nav__link">
+  <a href="#opensling-reference-choice" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Maintenance Reality
+        OpenSling Reference Choice
       
     </span>
   </a>
@@ -1609,10 +1631,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#useful-biases" class="md-nav__link">
+  <a href="#design-requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Useful Biases
+        Design Requirements
       
     </span>
   </a>
@@ -1620,10 +1642,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#power-budget-categories" class="md-nav__link">
+  <a href="#things-to-measure" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Power Budget Categories
+        Things To Measure
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#failure-modes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Failure Modes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#open-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Open Questions
       
     </span>
   </a>
@@ -1647,7 +1691,7 @@
 
 
   
-    <a href="https://github.com/pierce403/opensling/edit/main/docs/foundations/energy-maintenance.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/pierce403/opensling/edit/main/docs/slingshot-reference/components/evaporator-condenser-core.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1655,85 +1699,76 @@
   
 
 
-<h1 id="energy-and-maintenance-tradeoffs">Energy and Maintenance Tradeoffs<a class="headerlink" href="#energy-and-maintenance-tradeoffs" title="Permanent link">&para;</a></h1>
-<p>Water treatment hardware is usually constrained by maintenance long before it is constrained by theory. Energy and service burden should be considered together.</p>
-<h2 id="tradeoff-table">Tradeoff Table<a class="headerlink" href="#tradeoff-table" title="Permanent link">&para;</a></h2>
+<h1 id="evaporator-and-condenser-core">Evaporator And Condenser Core<a class="headerlink" href="#evaporator-and-condenser-core" title="Permanent link">&para;</a></h1>
+<p>This module is the heart of the machine. It is where the feed is lifted toward evaporation and where compressed vapor returns its latent heat by condensing.</p>
+<h2 id="public-slingshot-basis">Public Slingshot Basis<a class="headerlink" href="#public-slingshot-basis" title="Permanent link">&para;</a></h2>
+<p>DEKA’s public Slingshot page describes:</p>
+<ul>
+<li>preheated source water entering from the bottom</li>
+<li>copper tubes</li>
+<li>plastic dowels placed inside the tubes</li>
+<li>a thin water film between dowel and tube wall</li>
+<li>compressed steam condensing on the “cooler” tubes and driving the next evaporation step<sup id="fnref:deka"><a class="footnote-ref" href="#fn:deka">1</a></sup></li>
+</ul>
+<h2 id="opensling-reference-choice">OpenSling Reference Choice<a class="headerlink" href="#opensling-reference-choice" title="Permanent link">&para;</a></h2>
+<p>The open design keeps the same functional idea but makes the implementation easier to inspect and fabricate:</p>
 <table>
 <thead>
 <tr>
-<th>Choice</th>
-<th>Strength</th>
-<th>Cost</th>
+<th>Publicly documented element</th>
+<th>OpenSling reference choice</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Larger pre-separation volume</td>
-<td>reduces filter fouling</td>
-<td>adds bulk and slower startup</td>
+<td>Copper thin-film evaporator tubes</td>
+<td>316L stainless tube bundle with removable flow displacers or inserts</td>
 </tr>
 <tr>
-<td>Higher-pressure fine filtration</td>
-<td>better particulate control</td>
-<td>more pump power and more complex leak management</td>
+<td>Sealed proprietary module</td>
+<td>Pressure shell with service ports, visual instrumentation, and replaceable gaskets</td>
 </tr>
 <tr>
-<td>UV disinfection</td>
-<td>no chemical residual</td>
-<td>needs clear water, power, and lamp maintenance</td>
-</tr>
-<tr>
-<td>Carbon polishing</td>
-<td>improves taste and odor</td>
-<td>consumable replacement and uncertain performance on all chemistries</td>
-</tr>
-<tr>
-<td>Solar-backed system</td>
-<td>off-grid operation</td>
-<td>variable duty cycle and battery management overhead</td>
+<td>Implicit condensation on tube exterior</td>
+<td>Explicit shell-side condenser zone with accessible sample and drain points</td>
 </tr>
 </tbody>
 </table>
-<h2 id="maintenance-reality">Maintenance Reality<a class="headerlink" href="#maintenance-reality" title="Permanent link">&para;</a></h2>
-<p>When comparing designs, ask:</p>
+<h2 id="design-requirements">Design Requirements<a class="headerlink" href="#design-requirements" title="Permanent link">&para;</a></h2>
 <ul>
-<li>how often does an operator touch the machine?</li>
-<li>what parts clog first?</li>
-<li>can the service task be done without contaminating the clean side?</li>
-<li>how many tools are required?</li>
-<li>what happens if service is skipped for a week?</li>
+<li>maintain a stable thin film on the hot side</li>
+<li>minimize dry spots and localized scaling</li>
+<li>maximize recoverable heat transfer area</li>
+<li>tolerate repeated disassembly for cleaning and redesign</li>
 </ul>
-<h2 id="useful-biases">Useful Biases<a class="headerlink" href="#useful-biases" title="Permanent link">&para;</a></h2>
+<h2 id="things-to-measure">Things To Measure<a class="headerlink" href="#things-to-measure" title="Permanent link">&para;</a></h2>
 <ul>
-<li>spend volume and plumbing on upstream solids management</li>
-<li>keep consumables standardized</li>
-<li>make the dirty side physically obvious</li>
-<li>expose maintenance intervals as checklists, not tribal knowledge</li>
+<li>inlet feed temperature</li>
+<li>shell pressure</li>
+<li>tube-wall or near-wall temperature</li>
+<li>outlet concentrate temperature</li>
+<li>scale growth and fouling pattern</li>
 </ul>
-<h2 id="power-budget-categories">Power Budget Categories<a class="headerlink" href="#power-budget-categories" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Category</th>
-<th>Example loads</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Always on</td>
-<td>controller, telemetry, low-power sensors</td>
-</tr>
-<tr>
-<td>Duty cycled</td>
-<td>pumps, valves, UV chamber</td>
-</tr>
-<tr>
-<td>Rare events</td>
-<td>flush solenoids, alarms, work lights</td>
-</tr>
-</tbody>
-</table>
-<p>Documenting the power budget alongside the maintenance budget makes it easier to design systems that actually stay deployed.</p>
+<h2 id="failure-modes">Failure Modes<a class="headerlink" href="#failure-modes" title="Permanent link">&para;</a></h2>
+<ul>
+<li>tube fouling and scale lock</li>
+<li>uneven film distribution</li>
+<li>gasket creep during thermal cycling</li>
+<li>carryover caused by unstable boiling</li>
+</ul>
+<h2 id="open-questions">Open Questions<a class="headerlink" href="#open-questions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Whether the best open version uses stainless rods, printed displacers, or hybrid inserts</li>
+<li>How much serviceability is lost if the bundle becomes too dense</li>
+</ul>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:deka">
+<p><a href="https://dekaresearch.com/slingshot/">DEKA Slingshot page</a>.&#160;<a class="footnote-backref" href="#fnref:deka" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
 
@@ -1809,10 +1844,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.expand", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "content.code.copy", "content.action.edit"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

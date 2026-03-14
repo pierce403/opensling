@@ -2,78 +2,106 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://pierce403.github.io/opensling/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/about/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/build-guides/bench-prototype/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/build-guides/field-pilot-skid/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/build-guides/testing-rig/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/foundations/contaminants/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/foundations/energy-maintenance/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/foundations/treatment-train/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/getting-started/contributing/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/getting-started/design-principles/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/getting-started/mission-and-scope/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/operations/maintenance/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/operations/safety/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/operations/sampling-and-validation/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/research/component-sourcing/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/research/open-questions/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://pierce403.github.io/opensling/slingshot-reference/assembly-overview/</loc>
+         <lastmod>2026-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://pierce403.github.io/opensling/slingshot-reference/known-specs/</loc>
+         <lastmod>2026-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://pierce403.github.io/opensling/slingshot-reference/components/controls-power-frame/</loc>
+         <lastmod>2026-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://pierce403.github.io/opensling/slingshot-reference/components/demister-volatile-control/</loc>
+         <lastmod>2026-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://pierce403.github.io/opensling/slingshot-reference/components/evaporator-condenser-core/</loc>
+         <lastmod>2026-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://pierce403.github.io/opensling/slingshot-reference/components/feed-preheat-blowdown/</loc>
+         <lastmod>2026-03-14</lastmod>
+    </url>
+    <url>
+         <loc>https://pierce403.github.io/opensling/slingshot-reference/components/vapor-compression-stage/</loc>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/systems/modular-architecture/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/systems/power-and-enclosure/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
     <url>
          <loc>https://pierce403.github.io/opensling/systems/sensors-and-controls/</loc>
-         <lastmod>2026-03-13</lastmod>
+         <lastmod>2026-03-14</lastmod>
     </url>
 </urlset>
