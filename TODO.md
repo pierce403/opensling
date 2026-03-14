@@ -13,16 +13,19 @@ Last updated: 2026-03-13
 - [x] Add main component pages for the evaporator/condenser core, vapor compression stage, demister/volatile control, feed and blowdown loop, and controls/power/frame.
 - [x] Update navigation and internal cross-links for the new section.
 - [x] Run a strict MkDocs build after the research/content chunk.
+- [x] Add a fabrication pack with editable CAD sources plus STL exports for the custom non-pressure parts currently defined.
+- [x] Run a strict MkDocs build after the fabrication chunk.
 
 ## In Progress
 
-- [ ] Add a fabrication pack with editable CAD sources plus STL exports for the custom non-pressure parts currently defined.
+- [ ] Expand the fabrication pack with pressure-safe metal drawings once the reference dimensions and materials are validated.
 
 ## Next
 
-- [ ] Run a strict MkDocs build after the fabrication chunk.
+- [ ] Add revisioned BOMs and test procedures for the first OpenSling distiller alpha build.
 
 ## Commit Log
 
 - [x] `651c586` `Initial OpenSling wiki scaffold`
 - [x] `f4e58d0` `Add repo norms and progress tracking`
+- [x] `b0ec115` `Add Slingshot research and reference pages`

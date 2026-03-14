@@ -74,6 +74,7 @@ nav:
   - Slingshot Reference:
     - Public Specs and Shared-Thread Notes: slingshot-reference/known-specs.md
     - OpenSling Assembly Overview: slingshot-reference/assembly-overview.md
+    - Fabrication Pack: slingshot-reference/fabrication-pack.md
     - Components:
       - Evaporator and Condenser Core: slingshot-reference/components/evaporator-condenser-core.md
       - Vapor Compression Stage: slingshot-reference/components/vapor-compression-stage.md

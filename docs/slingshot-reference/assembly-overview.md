@@ -44,7 +44,7 @@ Do not start with contaminated water. First assemble and commission with clean w
    Add the startup heater, contactor or relay hardware, level sensing, pressure sensing, and emergency stop logic. Keep wet and electrical zones visually separated.
 
 8. **Fit custom support and routing parts.**
-   Install the printed guards, cable guides, tube spacers, panel blanks, and mounting brackets from the fabrication pack only after major hardware alignment is fixed.
+   Install the printed guards, cable guides, hose separators, panel blanks, and mounting brackets from the [Fabrication Pack](fabrication-pack.md) only after major hardware alignment is fixed.
 
 9. **Hydrotest and leak-check.**
    Test the pressure boundary with water, not steam, first. Record pressures, dwell times, and any gasket movement.
