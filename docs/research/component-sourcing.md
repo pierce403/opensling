@@ -29,3 +29,14 @@ Keep sourcing notes practical:
 - what worked but was painful to service
 
 The goal is not a shopping catalog. It is a memory system for future build decisions.
+
+## Current Distiller Snapshot
+
+The current dated distiller purchasing snapshot lives in [Alpha Buy List and Missing Pieces](../slingshot-reference/alpha-buy-list.md).
+
+When updating that page:
+
+- date-stamp the BOM revision
+- record whether a line item is `buy now`, `hold`, or `missing`
+- separate low-regret commodity parts from geometry-dependent hardware
+- treat shipping and tax as separate from the published subtotal

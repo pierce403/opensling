@@ -20,6 +20,19 @@ Do not start with contaminated water. First assemble and commission with clean w
 - characterize leaks and parasitic heat loss
 - establish baseline pressure and temperature behavior
 
+## Builder Flow
+
+If your goal is to actually get parts on a bench instead of just reading theory, use this order:
+
+1. Read the [Alpha Buy List and Missing Pieces](alpha-buy-list.md).
+2. Order the `buy now` parts first. Those are the lowest-regret purchases in the current repo state.
+3. Print or machine the non-pressure parts in the [Fabrication Pack](fabrication-pack.md).
+4. Build the frame, drains, feed-side routing, and instrument mounts before buying the pressure core.
+5. Hold the expensive geometry-dependent parts until the pressure shell, heater mount, and compressor operating point are frozen.
+6. Hydrotest with water before any heated or dirty-water run.
+
+The current OpenSling docs are honest about what is still missing. That is better than pretending a pressure vessel or heater package is already settled when it is not.
+
 ## Assembly Sequence
 
 1. **Build the frame and mounting surfaces.**

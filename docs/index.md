@@ -78,9 +78,10 @@ Slingshot proved that elegant water hardware was possible. OpenSling is here bec
 ## Start Here
 
 1. Read [Public Specs and Shared-Thread Notes](slingshot-reference/known-specs.md) to see which Slingshot details are public, which came from the shared ChatGPT thread, and which remain inference.
-2. Use [OpenSling Assembly Overview](slingshot-reference/assembly-overview.md) for the current reference-build sequence.
-3. Work through the component pages before fabricating anything pressure-bearing or potable-water-facing.
-4. Treat the current design as an open engineering baseline, not a certified drinking-water product.
+2. Use [Alpha Buy List and Missing Pieces](slingshot-reference/alpha-buy-list.md) to see what you can responsibly order right now and what is still undefined.
+3. Use [OpenSling Assembly Overview](slingshot-reference/assembly-overview.md) for the current reference-build sequence.
+4. Work through the component pages before fabricating anything pressure-bearing or potable-water-facing.
+5. Treat the current design as an open engineering baseline, not a certified drinking-water product.
 
 ## Sources
 

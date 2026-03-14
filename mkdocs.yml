@@ -73,6 +73,7 @@ nav:
     - Contributing: getting-started/contributing.md
   - Slingshot Reference:
     - Public Specs and Shared-Thread Notes: slingshot-reference/known-specs.md
+    - Alpha Buy List and Missing Pieces: slingshot-reference/alpha-buy-list.md
     - OpenSling Assembly Overview: slingshot-reference/assembly-overview.md
     - Fabrication Pack: slingshot-reference/fabrication-pack.md
     - Components:

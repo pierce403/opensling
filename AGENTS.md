@@ -22,6 +22,7 @@ OpenSling is an open-source/open-knowledge engineering wiki for building machine
 - When research matters, use current web sources and prefer primary sources.
 - Distinguish clearly between public facts, working assumptions, and design inferences.
 - Keep `TODO.md` current, and after each completed task chunk update it, commit, and push.
+- For sourcing tasks, publish a dated BOM snapshot and separate `buy now` parts from geometry-dependent `hold` items.
 - When given a shared ChatGPT thread or similar artifact, treat it as source material to compare against public evidence, not as automatic ground truth.
 - The collaborator wants real numbers, exact dates, and explicit source-backed claims on public-health topics.
 
@@ -79,6 +80,7 @@ curl -I https://opensling.org
   - shared-thread notes
   - OpenSling reconstruction choices
 - If a public-health number is time-sensitive, include the exact year of the underlying data.
+- If a page tells people what to buy, date-stamp the price snapshot and make the missing pieces impossible to miss.
 - If malaria is discussed alongside water-borne disease, clarify that malaria is mosquito-borne but linked to water, drainage, and infrastructure conditions.
 - Do not claim production readiness unless dimensions, materials, safety limits, and commissioning behavior are actually validated.
 

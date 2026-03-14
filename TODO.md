@@ -1,6 +1,6 @@
 # TODO
 
-Last updated: 2026-03-14
+Last updated: 2026-03-13
 
 ## Completed
 
@@ -17,6 +17,7 @@ Last updated: 2026-03-14
 - [x] Run a strict MkDocs build after the fabrication chunk.
 - [x] Fix GitHub Pages deployment to use the official workflow-based Pages path for `opensling.org`.
 - [x] Update `AGENTS.md` with recursive self-improvement rules, verified commands, deployment lessons, and collaborator cues.
+- [x] Add a builder-facing alpha BOM with live supplier examples, a clearer build flow, and explicit missing-piece callouts.
 
 ## In Progress
 
@@ -24,7 +25,8 @@ Last updated: 2026-03-14
 
 ## Next
 
-- [ ] Add revisioned BOMs and test procedures for the first OpenSling distiller alpha build.
+- [ ] Add first-pass clean-water commissioning and hydrotest procedures for the first OpenSling distiller alpha build.
+- [ ] Freeze the pressure-core geometry enough to publish a real shell, heater, and sensor-port drawing set.
 
 ## Commit Log
 
@@ -33,4 +35,4 @@ Last updated: 2026-03-14
 - [x] `b0ec115` `Add Slingshot research and reference pages`
 - [x] `07265ab` `Add fabrication pack for reference build`
 - [x] `5551d97` `Fix Pages deployment for opensling.org`
-- [x] `07265ab` `Add fabrication pack for reference build`
+- [x] `bfcb0b7` `Strengthen AGENTS recursive improvement guidance`
