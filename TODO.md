@@ -18,6 +18,7 @@ Last updated: 2026-03-13
 - [x] Fix GitHub Pages deployment to use the official workflow-based Pages path for `opensling.org`.
 - [x] Update `AGENTS.md` with recursive self-improvement rules, verified commands, deployment lessons, and collaborator cues.
 - [x] Add a builder-facing alpha BOM with live supplier examples, a clearer build flow, and explicit missing-piece callouts.
+- [x] Fix dead vendor links in the alpha BOM and make external links open in a new tab.
 
 ## In Progress
 
@@ -36,3 +37,4 @@ Last updated: 2026-03-13
 - [x] `07265ab` `Add fabrication pack for reference build`
 - [x] `5551d97` `Fix Pages deployment for opensling.org`
 - [x] `bfcb0b7` `Strengthen AGENTS recursive improvement guidance`
+- [x] `a50ca93` `Add alpha BOM and builder flow`

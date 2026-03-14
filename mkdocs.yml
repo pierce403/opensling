@@ -65,6 +65,9 @@ markdown_extensions:
 extra_css:
   - css/custom-styles.css
 
+extra_javascript:
+  - javascripts/open-external-links.js
+
 nav:
   - Home: index.md
   - Getting Started:

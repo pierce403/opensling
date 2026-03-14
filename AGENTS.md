@@ -133,6 +133,8 @@ curl -I https://opensling.org
   - Fix: replace them with current WHO/JMP figures and date them explicitly.
 - Pitfall: fabrication assets can accidentally imply pressure readiness.
   - Fix: document the safety boundary in both the fabrication page and the fabrication directory README.
+- Pitfall: retail product slugs, especially Home Depot links, drift and can 404 while the product ID still works.
+  - Fix: verify vendor URLs directly with `curl -IL` and prefer canonical product pages with stable numeric IDs when possible.
 
 ## Rapport And Reflection
 

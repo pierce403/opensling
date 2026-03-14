@@ -40,8 +40,8 @@ These parts are useful even if the pressure core changes later. They are the low
 
 | Item | Example source | Qty | Unit price | Extended | Why this is low-regret |
 |------|----------------|-----|------------|----------|------------------------|
-| Frame channel, 10 ft, 12 ga | [Superstrut ZA1200HS-10](https://www.homedepot.com/p/Superstrut-10-ft-12-Gauge-Half-Slotted-Metal-Framing-Strut-Channel-in-Gold-Galvanized-ZA1200HS-10/100179924) | 4 | $43.65 | $174.60 | Gives a serviceable bench frame before the wet core is frozen. |
-| Portable inline GFCI | [ELEGRP G20CA-2FT](https://www.homedepot.com/p/ELEGRP-15-Amp-125-Volt-Auto-Monitoring-GFCI-Portable-Plug-Inline-with-2-ft-Cord-Black-G20CA-2FT/326105365) | 1 | $33.60 | $33.60 | Mandatory bench-power protection for early heated runs. |
+| Frame channel, 10 ft, 12 ga | [Superstrut ZA1200HS-10](https://www.homedepot.com/p/Superstrut-10-ft-12-Gauge-Half-Slotted-Metal-Framing-Strut-Channel-in-Gold-Galvanized-ZA1200HS-10-ZA1200HS-10/100125003) | 4 | $43.65 | $174.60 | Gives a serviceable bench frame before the wet core is frozen. |
+| Portable inline GFCI | [ELEGRP G20CA-2FT](https://www.homedepot.com/p/ELEGRP-2-ft-15-Amp-In-Line-Self-Test-Automatic-Reset-Portable-GFCI-Plug-with-3-Outlet-Cord-Yellow-G20CA-2FT/320391610) | 1 | $33.60 | $33.60 | Mandatory bench-power protection for early heated runs. |
 | Sanitary tee, `1.5 in.` clamp x clamp x clamp | [Hamby tee](https://hambydairysupply.com/1-5-tee-clamp-x-clamp-x-clamp-stainless-steel/) | 2 | $52.00 | $104.00 | Useful for drain, demister, and sample-routing experiments. |
 | Sanitary spool, `1.5 in.` x `6 in.` | [Hamby spool tube](https://hambydairysupply.com/1-5-inch-tubing-x-6-inch-length-sanitary-spool-tube/) | 4 | $34.60 | $138.40 | Flexible straight sections for mock-up and rebuilds. |
 | Butterfly valve, `1.5 in.` clamp x clamp | [Hamby butterfly valve](https://hambydairysupply.com/1-5-inch-butterfly-valve-clamp-x-clamp/) | 2 | $79.99 | $159.98 | Useful for manual isolate/drain work even if the final core changes. |
