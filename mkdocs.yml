@@ -71,6 +71,15 @@ nav:
     - Mission and Scope: getting-started/mission-and-scope.md
     - Design Principles: getting-started/design-principles.md
     - Contributing: getting-started/contributing.md
+  - Slingshot Reference:
+    - Public Specs and Shared-Thread Notes: slingshot-reference/known-specs.md
+    - OpenSling Assembly Overview: slingshot-reference/assembly-overview.md
+    - Components:
+      - Evaporator and Condenser Core: slingshot-reference/components/evaporator-condenser-core.md
+      - Vapor Compression Stage: slingshot-reference/components/vapor-compression-stage.md
+      - Demister and Volatile Control: slingshot-reference/components/demister-volatile-control.md
+      - Feed, Preheat, and Blowdown Loop: slingshot-reference/components/feed-preheat-blowdown.md
+      - Controls, Power, and Frame: slingshot-reference/components/controls-power-frame.md
   - Water Treatment Foundations:
     - Contaminants and Constraints: foundations/contaminants.md
     - Treatment Train: foundations/treatment-train.md
