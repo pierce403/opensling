@@ -47,6 +47,15 @@ Use a structure like this when adding a new technical page:
 3. run `./build.sh` before pushing
 4. commit with a message that names the system or process you changed
 
+## Licensing Expectation
+
+Submit material only if you are willing to share it under this repo's open-license model:
+
+- documentation text, diagrams, tables, and educational media under `CC BY 4.0`
+- code, scripts, configuration, and fabrication design sources under `Apache-2.0`
+
+If a contribution needs a different license or a restriction, say so clearly in the file itself before it is merged.
+
 ## Writing Style
 
 - prefer precise statements over marketing language

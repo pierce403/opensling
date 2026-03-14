@@ -19,6 +19,7 @@ Last updated: 2026-03-13
 - [x] Update `AGENTS.md` with recursive self-improvement rules, verified commands, deployment lessons, and collaborator cues.
 - [x] Add a builder-facing alpha BOM with live supplier examples, a clearer build flow, and explicit missing-piece callouts.
 - [x] Fix dead vendor links in the alpha BOM and make external links open in a new tab.
+- [x] Replace copyright-style messaging with explicit CC BY 4.0 and Apache-2.0 reuse language across the site and repo docs.
 
 ## In Progress
 
@@ -38,3 +39,4 @@ Last updated: 2026-03-13
 - [x] `5551d97` `Fix Pages deployment for opensling.org`
 - [x] `bfcb0b7` `Strengthen AGENTS recursive improvement guidance`
 - [x] `a50ca93` `Add alpha BOM and builder flow`
+- [x] `95656bf` `Fix vendor links and external link behavior`

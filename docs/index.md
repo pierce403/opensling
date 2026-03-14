@@ -71,7 +71,7 @@ Slingshot proved that elegant water hardware was possible. OpenSling is here bec
   </div>
   <div class="feature-card">
     <h3>Open licensing</h3>
-    <p>OpenSling documentation is intended for CC BY 4.0 reuse, while code and fabrication design sources remain Apache-2.0 by project norm.</p>
+    <p>OpenSling documentation is licensed for CC BY 4.0 reuse, while code and fabrication design sources are licensed Apache-2.0. Copy it, adapt it, and build from it.</p>
   </div>
 </div>
 

@@ -40,4 +40,13 @@ The expected contribution style is simple:
 3. attach measurements, photos, or failure notes
 4. leave the next person with enough context to continue
 
+## Reuse And Licensing
+
+OpenSling is meant to be copied.
+
+- documentation text, diagrams, tables, and educational media are licensed under `CC BY 4.0`
+- code, scripts, configuration, and fabrication design sources are licensed under `Apache-2.0`
+
+If you want to copy pages into another wiki, translate them, print them for a workshop, adapt them into a build manual, or fork the repo to continue the engineering work, this project is set up to allow that. See [Licensing](getting-started/licensing.md).
+
 Project source: [github.com/pierce403/opensling](https://github.com/pierce403/opensling)

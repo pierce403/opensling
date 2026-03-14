@@ -41,8 +41,13 @@ The workflow builds the site on every push to `main` and publishes it through th
 
 ## Licensing Model
 
-The current repository root license is Apache-2.0. Project intent is to keep documentation and educational media open under CC BY 4.0 while keeping code, scripts, and fabrication design sources under Apache-2.0. See `LICENSING.md`.
+OpenSling is meant to be copied and built from.
+
+- documentation text, diagrams, tables, and educational media are licensed under `CC BY 4.0`
+- code, scripts, configuration, and fabrication design sources are licensed under `Apache-2.0`
+
+See `LICENSING.md`, `LICENSE`, and `LICENSE-docs.md`.
 
 ## License
 
-This repository currently ships with the Apache 2.0 license inherited from the template scaffold.
+Reuse is encouraged. Copy the docs, adapt them, fork the code, and build from the fabrication files within the license terms above.

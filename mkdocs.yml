@@ -74,6 +74,7 @@ nav:
     - Mission and Scope: getting-started/mission-and-scope.md
     - Design Principles: getting-started/design-principles.md
     - Contributing: getting-started/contributing.md
+    - Licensing: getting-started/licensing.md
   - Slingshot Reference:
     - Public Specs and Shared-Thread Notes: slingshot-reference/known-specs.md
     - Alpha Buy List and Missing Pieces: slingshot-reference/alpha-buy-list.md
@@ -114,4 +115,4 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/pierce403/opensling
 
-copyright: Copyright &copy; 2026 OpenSling contributors
+copyright: Documentation licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Code and fabrication sources licensed <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache-2.0</a>. Copy, remix, build, and reuse are encouraged.
