@@ -1,6 +1,6 @@
 # TODO
 
-Last updated: 2026-03-13
+Last updated: 2026-03-14
 
 ## Completed
 
@@ -16,6 +16,7 @@ Last updated: 2026-03-13
 - [x] Add a fabrication pack with editable CAD sources plus STL exports for the custom non-pressure parts currently defined.
 - [x] Run a strict MkDocs build after the fabrication chunk.
 - [x] Fix GitHub Pages deployment to use the official workflow-based Pages path for `opensling.org`.
+- [x] Update `AGENTS.md` with recursive self-improvement rules, verified commands, deployment lessons, and collaborator cues.
 
 ## In Progress
 
@@ -30,4 +31,6 @@ Last updated: 2026-03-13
 - [x] `651c586` `Initial OpenSling wiki scaffold`
 - [x] `f4e58d0` `Add repo norms and progress tracking`
 - [x] `b0ec115` `Add Slingshot research and reference pages`
+- [x] `07265ab` `Add fabrication pack for reference build`
+- [x] `5551d97` `Fix Pages deployment for opensling.org`
 - [x] `07265ab` `Add fabrication pack for reference build`
