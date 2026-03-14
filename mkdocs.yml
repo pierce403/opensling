@@ -1,7 +1,7 @@
 site_name: OpenSling Wiki
 site_description: Open documentation for building machines that clean water
 site_author: OpenSling contributors
-site_url: https://pierce403.github.io/opensling
+site_url: https://opensling.org
 
 repo_name: pierce403/opensling
 repo_url: https://github.com/pierce403/opensling

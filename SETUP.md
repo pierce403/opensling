@@ -9,13 +9,13 @@ This file captures the initial decisions used to adapt the `sloppy.wiki` scaffol
 | Site name | `OpenSling Wiki` | Public-facing wiki title |
 | Tagline | `Open documentation for building machines that clean water` | Used in metadata and homepage copy |
 | Repo URL | `https://github.com/pierce403/opensling` | GitHub source of truth |
-| Site URL | `https://pierce403.github.io/opensling` | Intended GitHub Pages URL |
+| Site URL | `https://opensling.org` | Intended public URL |
 | Logo path | `docs/img/logo.svg` | Simple in-repo SVG mark |
 | Favicon path | `docs/img/favicon.svg` | Matching SVG favicon |
 | Primary color | `teal` | Material theme token |
 | Accent color | `cyan` | Material theme token |
 | Default mode | Light, with dark toggle | Better for diagrams and field photos |
-| Custom domain | None configured | Add `CNAME` later if needed |
+| Custom domain | `opensling.org` | Published through GitHub Pages |
 
 ## Content Structure
 

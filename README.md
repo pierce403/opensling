@@ -35,9 +35,9 @@ To produce a deployable build:
 
 ## Deployment
 
-The workflow builds the site on every push to `main` and publishes the static output to `gh-pages`. Once GitHub Pages is enabled for the repository, the intended public URL is:
+The workflow builds the site on every push to `main` and publishes it through the official GitHub Pages deployment flow. The intended public URL is:
 
-`https://pierce403.github.io/opensling`
+`https://opensling.org`
 
 ## Licensing Model
 
