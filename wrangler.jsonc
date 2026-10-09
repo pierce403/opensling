@@ -23,8 +23,8 @@
   },
   "routes": [
     {
-      "pattern": "opensling.org",
-      "custom_domain": true
+      "pattern": "opensling.org/*",
+      "zone_name": "opensling.org"
     }
   ]
 }

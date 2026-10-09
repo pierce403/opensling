@@ -46,4 +46,5 @@ Last updated: 2026-03-13
 ## Cloudflare migration
 
 - [x] Prepare pinned strict build, Static Assets configuration, validation-only CI, and recovery notes.
+- [x] Prepare an ordinary-route child configuration with retained apex A values for coordinator review.
 - [ ] Verify native Git deployment and complete the approved domain/DNS cutover.
