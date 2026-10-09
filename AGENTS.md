@@ -120,17 +120,8 @@ curl -I https://opensling.org
 
 ## Deployment Notes
 
-- This repo’s GitHub Pages configuration uses `build_type: workflow`.
-- Do not use an old-style `gh-pages` branch deployment action here unless the Pages configuration is changed to match it.
-- The working deployment path is the official GitHub Pages flow:
-  - build site
-  - upload Pages artifact
-  - deploy with `actions/deploy-pages`
-- Keep these aligned:
-  - `mkdocs.yml` `site_url`
-  - `docs/CNAME`
-  - GitHub Pages custom-domain setting
-- A green workflow is not enough. Verify the live domain actually returns `200 OK`.
+- Cloudflare native Git publication is prepared; GitHub Actions validates only. Retain the existing workflow-based Pages deployment as recovery evidence.
+- Preserve `mkdocs.yml` canonical URL and `docs/CNAME`; verify exact-commit Cloudflare deployment and live HTTPS after the approved cutover.
 
 ## Known Pitfalls And Solutions
 
@@ -169,3 +160,13 @@ If the answer to any of these is yes, update this file before stopping.
 3. Verify the site still builds.
 4. Commit with a task-specific message.
 5. Push immediately after the commit.
+
+## Cloudflare migration lessons (2026-10-09)
+
+- Worker `opensling` publishes only `.cloudflare/site/`, leaving legacy `site/` untouched. Use `npm ci`, `npm run build`, and `npm run deploy:check`; strict MkDocs uses the baseline renderer versions in `requirements.lock`.
+- Native Git settings: `pierce403/opensling`, production `main`, root `/`, build `npm run build`, deploy `npx wrangler deploy`, paths `*`. GitHub Actions validates only; credentials stay in Cloudflare, with no GitHub Cloudflare secrets.
+- Initial config intentionally has no custom routes. Connection, workers.dev, exact custom domain, DNS import, nameservers, and public behavior must be verified independently; preparation alone is not a completed cutover.
+- Preserve canonical URL, existing public paths and standalone HTML, search, feeds, robots behavior, unrelated DNS/mail records, and prior Pages recovery source. Asset-only requests do not emit Worker invocation logs.
+- Do not overlap manual and native Git deployment. Pause automatic builds and wait before deliberate recovery; verify before re-enabling them.
+
+- Compatibility date is `2026-10-07`, the newest date supported by the bundled workerd in pinned Wrangler 4.145.0. A `2026-10-09` local runtime refused startup; this asset-only configuration uses the supported date so development and validation exercise the configured runtime. Review compatibility changes before advancing it with a future Wrangler update.

@@ -42,3 +42,8 @@ Last updated: 2026-03-13
 - [x] `a50ca93` `Add alpha BOM and builder flow`
 - [x] `95656bf` `Fix vendor links and external link behavior`
 - [x] `ae828b9` `Clarify open licensing across site`
+
+## Cloudflare migration
+
+- [x] Prepare pinned strict build, Static Assets configuration, validation-only CI, and recovery notes.
+- [ ] Verify native Git deployment and complete the approved domain/DNS cutover.
